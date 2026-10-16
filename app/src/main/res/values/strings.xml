@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku Solver</string>
+    <string name="app_tagline">Fast screen scan, safe solve, automatic entry</string>
+    <string name="current_status">Current status</string>
+    <string name="setup_title">One-time setup</string>
+    <string name="permission_ready">Ready</string>
+    <string name="permission_needed">Action needed</string>
+    <string name="accessibility_state">1. Accessibility service: %1$s</string>
+    <string name="overlay_state">2. Floating button permission: %1$s</string>
+    <string name="set_scan_area">Scan area</string>
+    <string name="stop_services">Stop service</string>
+    <string name="manual_mode_title">Manual puzzle</string>
+    <string name="manual_mode_description">Enter clues yourself when a board cannot be scanned.</string>
+    <string name="open_manual_input">Enter a puzzle</string>
+    <string name="quick_help">How to use: start the solver, open your Sudoku game, then tap the floating Solve button. The app now compares multiple OCR passes and will stop for guidance rather than enter an ambiguous solution.</string>
+    <string name="accessibility_service_description">Allows Sudoku Solver to capture screen and auto-input solutions</string>
+    <string name="accessibility_service_name">Sudoku Solver</string>
+    <string name="reconnect_accessibility">Reconnect Accessibility Service</string>
+    <string name="start_solving">Start Solving</string>
+    <string name="stop_solving">Stop</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="enable_overlay">Enable Overlay Permission</string>
+    <string name="status_idle">Ready to solve</string>
+    <string name="status_capturing">Capturing screen...</string>
+    <string name="status_detecting">Detecting board...</string>
+    <string name="status_recognizing">Recognizing digits...</string>
+    <string name="status_solving">Solving puzzle...</string>
+    <string name="status_inputting">Auto-inputting solution...</string>
+    <string name="status_complete">Puzzle solved!</string>
+    <string name="error_no_board">No Sudoku board detected</string>
+    <string name="error_unsolvable">Puzzle is unsolvable</string>
+    <string name="permission_required">Permissions required to function</string>
+</resources>

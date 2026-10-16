@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_content_max_width">720dp</dimen>
+    <dimen name="main_content_padding_horizontal">20dp</dimen>
+    <dimen name="main_content_padding_top">28dp</dimen>
+    <dimen name="main_content_padding_bottom">32dp</dimen>
+    <dimen name="manual_grid_max_size">560dp</dimen>
+    <dimen name="overlay_button_min_width">60dp</dimen>
+    <dimen name="overlay_button_min_height">44dp</dimen>
+    <dimen name="overlay_button_padding_horizontal">10dp</dimen>
+    <dimen name="overlay_button_padding_vertical">7dp</dimen>
+    <dimen name="overlay_button_gap">6dp</dimen>
+    <dimen name="overlay_button_text_size">14sp</dimen>
+</resources>

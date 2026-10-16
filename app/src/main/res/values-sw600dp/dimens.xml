@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fire HD 10 is 800dp wide in portrait at its stock 240dpi density. -->
+    <dimen name="main_content_max_width">720dp</dimen>
+    <dimen name="main_content_padding_horizontal">32dp</dimen>
+    <dimen name="main_content_padding_top">36dp</dimen>
+    <dimen name="main_content_padding_bottom">40dp</dimen>
+    <dimen name="manual_grid_max_size">648dp</dimen>
+    <dimen name="overlay_button_min_width">72dp</dimen>
+    <dimen name="overlay_button_min_height">50dp</dimen>
+    <dimen name="overlay_button_padding_horizontal">14dp</dimen>
+    <dimen name="overlay_button_padding_vertical">10dp</dimen>
+    <dimen name="overlay_button_gap">8dp</dimen>
+    <dimen name="overlay_button_text_size">16sp</dimen>
+</resources>

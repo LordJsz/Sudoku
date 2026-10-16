@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan Puzzle from Screen"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit digits below, then tap Solve"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <FrameLayout
+        android:id="@+id/gridContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipChildren="false"
+        android:padding="4dp">
+
+        <GridLayout
+            android:id="@+id/sudokuGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="9"
+            android:rowCount="9" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/solveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Solve &amp; Auto-Input" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After pressing Solve, switch to the Sudoku app within 3 seconds"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

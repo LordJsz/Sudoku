@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/solveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/overlay_button_min_width"
+            android:minHeight="@dimen/overlay_button_min_height"
+            android:paddingStart="@dimen/overlay_button_padding_horizontal"
+            android:paddingTop="@dimen/overlay_button_padding_vertical"
+            android:paddingEnd="@dimen/overlay_button_padding_horizontal"
+            android:paddingBottom="@dimen/overlay_button_padding_vertical"
+            android:background="#FF6200EE"
+            android:text="Solve"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/overlay_button_text_size" />
+
+        <Button
+            android:id="@+id/fixButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/overlay_button_gap"
+            android:minWidth="@dimen/overlay_button_min_width"
+            android:minHeight="@dimen/overlay_button_min_height"
+            android:paddingStart="@dimen/overlay_button_padding_horizontal"
+            android:paddingTop="@dimen/overlay_button_padding_vertical"
+            android:paddingEnd="@dimen/overlay_button_padding_horizontal"
+            android:paddingBottom="@dimen/overlay_button_padding_vertical"
+            android:background="#FFE65100"
+            android:text="16×16"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/overlay_button_text_size" />
+
+        <Button
+            android:id="@+id/timerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/overlay_button_gap"
+            android:minWidth="@dimen/overlay_button_min_width"
+            android:minHeight="@dimen/overlay_button_min_height"
+            android:paddingStart="@dimen/overlay_button_padding_horizontal"
+            android:paddingTop="@dimen/overlay_button_padding_vertical"
+            android:paddingEnd="@dimen/overlay_button_padding_horizontal"
+            android:paddingBottom="@dimen/overlay_button_padding_vertical"
+            android:background="#FF008577"
+            android:text="Timer"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/overlay_button_text_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/solverStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#E0263238"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

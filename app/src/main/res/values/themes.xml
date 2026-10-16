@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SudokuSolver" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#315FCE</item>
+        <item name="colorPrimaryVariant">#214AA8</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#2B8A7E</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">#F5F7FB</item>
+        <item name="android:navigationBarColor">#F5F7FB</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

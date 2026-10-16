@@ -1,0 +1,51 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+*.log
+
+# --- Capturas y registros de depuración generados en la raíz ---
+# (anclados a / para no afectar a res/ ni a los assets de la app)
+/*.png
+/*.xml
+/*.txt
+/*.html
+/*.js
+/index.js
+/3.html
+
+# --- Volcados de diagnóstico de OCR / pruebas en dispositivo ---
+/diagnostics/
+/a07_diagnostics/
+/codex_phone_ocr/
+/fresh_hexadoku_ocr/
+/hexadoku_ocr_dump/
+/retest_hexadoku_ocr/
+/test_16x16_ocr/
+
+# --- Editores y utilidades de agentes ---
+/.vscode/
+/.claude/
+/.agents/
+/.continue/
+
+# --- Artefactos varios ---
+captures/
+*.orig
+*.rej
+/.kotlin/
